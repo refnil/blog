@@ -1,0 +1,4 @@
+baseURL = 'https://refnil.github.io/blog/'
+languageCode = 'en-us'
+title = 'refnil talks about stuff'
+theme = "papermod"

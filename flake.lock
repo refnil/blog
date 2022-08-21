@@ -1,0 +1,41 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1661009065,
+        "narHash": "sha256-i+Q2ttGp4uOL3j0wEYP3MXLcu/4L/WbChxGQogiNSZo=",
+        "path": "/nix/store/03sdvfaij2nxkfrjvh4xqnc95c6aaf1d-source",
+        "rev": "9a91318fffec81ad009b73fd3b640d2541d87909",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "papermod": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1660986067,
+        "narHash": "sha256-tKUedJnFcZIgB/ajIB04t2bL0OYrIdniyXZZl8xfX58=",
+        "owner": "adityatelange",
+        "repo": "hugo-PaperMod",
+        "rev": "b906338dc82a48e0fa8c8d4160a09c8b07302472",
+        "type": "github"
+      },
+      "original": {
+        "owner": "adityatelange",
+        "repo": "hugo-PaperMod",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "papermod": "papermod"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
