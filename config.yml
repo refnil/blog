@@ -23,12 +23,16 @@ menu:
       name: tags 
       url: /tags/
       weight: 45
+    - name: search
+      url: search/
+      weight: 43
 
 params:
     # Papermod config
     ShowPostNavLinks: true
     ShowCodeCopyButtons: true
     ShowReadingTime: true
+    # ShowShareButtons: true
     # ShowBreadCrumbs: true
     
     editPost:
@@ -47,3 +51,9 @@ params:
     socialIcons: # optional
         - name: "github"
           url: "https://github.com/refnil"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary for search
