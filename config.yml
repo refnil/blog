@@ -1,0 +1,49 @@
+baseURL: 'https://refnil.github.io/blog/'
+languageCode:  'en-us'
+title:  'refnil talks about stuff'
+theme:  "papermod"
+enableEmoji: true
+
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+
+menu:
+  main:
+    - identifier: projects
+      name: projects
+      url: /projects/
+      weight: 30
+    - identifier: posts
+      name: posts
+      url: /posts/
+      weight: 20
+    - identifier: tags
+      name: tags 
+      url: /tags/
+      weight: 45
+
+params:
+    # Papermod config
+    ShowPostNavLinks: true
+    ShowCodeCopyButtons: true
+    ShowReadingTime: true
+    # ShowBreadCrumbs: true
+    
+    editPost:
+        URL: "https://github.com/refnil/blog/tree/main/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+
+
+    homeInfoParams:
+        Title: >
+          Welcome to my corner of the internet
+
+        Content: > 
+          Hopefully you'll find something interesting.
+
+    socialIcons: # optional
+        - name: "github"
+          url: "https://github.com/refnil"
